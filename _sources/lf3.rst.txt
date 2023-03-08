@@ -1,9 +1,103 @@
+LF3
+===
+
+==========
+EK Themen?
+==========
+
+Windows Befehle
+---------------
+
+ipconfig /all
+    Hilfsprogramm zum anzeigen von MAC- & IP-Adresse etc.
+
+tracer
+    Dient dem Nachverfolgen eines IP-Paketes zu einem bestimmten Ziel. 
+    Ermittelt Zwischenknoten und liefert Informationen zur benötigten Laufzeit.
+
+ping
+    Prüft Erreichbarkeit eines Servers anhand der IP-Adresse.
+
+Begriffe
+--------
+
+MAC-Adresse
+    Besteht aus 48 Bits
+
+IPv4-Adresse
+    Besteht aus 4 Oktetten, wovon jedes einen Dezimalwert von 0 - 255 darstellen kann.
+
+DHCP-Server 
+    * Dient der dynamischen IP-Adressierung
+    * kann statische IP-Adressen reservieren
+    * übergibt wichtige Netzwerkparameter
+
+USV (Unterbrechungsfreie Stromversorgung)
+    * schützt vor Netzausfall
+    * schützt vor Spannungseinbrüchen
+    * schützt vor Spannungsspitzen
+
+PoE
+    * Power over Ethernet
+    * über Injectors kann der Strom eingespeist werden.
+
+Hot Swap
+    Festplatten können während des Betriebs störungsfrei gewechselt werden.
+
+    
+Verkabelung
+-----------
+
+Primärverkabelung [#f1]_
+    Verkabelung zwischen zwei oder mehreren Gebäuden, auch Geländerverkabelung genannt.
+
+Sekundärverkabelung
+    Verkabelung von Stockwerken innerhalb eines Gebäudes (Vertikalverkabelung).
+
+Tertiärverkabelung
+    Verkabelung innerhalb einer Etage (Etagenverkabelung).
+
+Twisted Pair (Kupferkabel)
+    * Einsatz zwischen Etagenverteiler und den Datenanschlussdosen
+    * Maximal 90 Meter laut Verkabelungsstandards
+
+Subnetting Tabelle
+------------------
+
++---------------------+-----+-----+-----+-----+-----+-----+
+| CIDR Notation       | /25 | /26 | /27 | /28 | /29 | /30 |
++=====================+=====+=====+=====+=====+=====+=====+
+| Benutzbare Adressen | 126 | 62  | 30  | 14  | 6   | 2   |
++---------------------+-----+-----+-----+-----+-----+-----+
+
+OSI Modell
+----------
++---------+--------------------+----------------+--------+
+| Schicht | Name               | Protokoll      | Gerät  |
++=========+====================+================+========+
+| 7.      | Anwendungs...      |                |        |
++---------+--------------------+----------------+--------+
+| 6.      | Darstellungs...    |                |        |
++---------+--------------------+----------------+--------+
+| 5.      | Sitzungs...        |                |        |
++---------+--------------------+----------------+--------+
+| 4.      | Transport...       | TCP,UDP        |        |
++---------+--------------------+----------------+--------+
+| 3.      | Vermittlungs...    | IP, IPsec, ARP | Router |
++---------+--------------------+----------------+--------+
+| 2.      | Sicherungsschicht  |                |        |
++---------+--------------------+----------------+--------+
+| 1.      | Bitübertragungs... |                |        |
++---------+--------------------+----------------+--------+
+
+
 
 =======
 Routing
 =======
 
 Aufgabe 7.3.23
+--------------
 
 R1 
 
@@ -59,3 +153,9 @@ R3
 +----+----------------+-----------------+----------+----------------+--------+
 | N6 | 192.168.1.0    | 255.255.255.0   | 10.0.0.5 | 10.0.0.6       | 2      |
 +----+----------------+-----------------+----------+----------------+--------+
+
+
+
+
+
+.. [#f1] https://www.karteikarte.com/card/2139452/was-ist-eine-primaer-sekundaer-bzw-tertiaerverkabelung
