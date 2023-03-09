@@ -13,7 +13,13 @@ author = 'moe'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.mathjax',]
+extensions = [
+    'sphinxcontrib.plantuml',
+    'sphinx.ext.mathjax',
+    'sphinxcontrib.nwdiag',
+    'sphinxcontrib.rackdiag',
+    'sphinxcontrib.packetdiag'
+]
 
 templates_path = ['_templates']
 exclude_patterns = []

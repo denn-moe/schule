@@ -99,6 +99,46 @@ Routing
 Aufgabe 7.3.23
 --------------
 
+.. nwdiag::
+
+    nwdiag {
+        
+        c 
+        c -- R1
+        network N1 {
+            address = "192.168.10.0/25"
+
+            R1 [address = "192.168.10.126"]
+        }
+        network N2 {
+            address = "192.168.10.128/25";
+
+            R2 [address = "192.168.10.254"];
+        }
+        network N3 {
+            address = "10.0.0.0/30"
+
+            R1 [address = "10.0.0.1"]
+            R2 [address = "10.0.0.2"]
+        }
+        network N4 {
+            address = "10.0.0.4/30"
+
+            R1 [address = "10.0.0.5"]
+            R3 [address = "10.0.0.6"]
+        }
+        network N5 {
+            address = "172.16.0.0/16"
+
+            R3 [address = "172.16.255.254"]
+        }
+        network N6 {
+            address = "192.168.1.0/24"
+
+            R2 [address = "192.168.1.254"]
+        }
+    }
+
 R1 
 
 +----+----------------+-----------------+----------+----------------+--------+
