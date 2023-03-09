@@ -48,12 +48,93 @@ und die Welt
 * Larry Page (Google) 
 
 
+Netzteil
+--------
+
+
+Die "80-PLUS"-Initiative fordert für eine ihrer Zertifizierung,
+dass Netzteile für Desktop-Computer und Server bei den Lastpunkten
+20%, 50% und 100% jeweils einen Wirkungsgrad von mindestens 80% erreichen. [#f1]_
+
+* 80 PLUS
+* 80 PLUS Bronze
+* 80 PLUS Silver
+* 80 PLUS Gold
+* 80 PLUS Platinum
+* 80 PLUS Titanium
+
+
+
+
+Anschlüsse
+----------
+
+* Sockel (Prozessor)
+* RAM-Steckplätze
+* PCI-/PCIe-Steckplätze
+* USB 
+* Firewire
+* Thunderbolt
+* PS2 (veraltet Tastatur/Maus)
+* Audio (Klinkenanschlüsse)
+* RJ45 (Netzwerk)
+* Monitor
+    * VGA
+    * DVI
+    * HDMI
+    * Display Port
+* SATA (Festplatten)
+* M.2-Port (SSD)
+
+Formfaktoren
+------------
+
+* ATX
+* micro ATX
+* Mini ATX
+* Flex ATX
+* Mini ITX
+
+
+Speicherarten
+-------------
+
+Direct Attached Storage (DAS)
+    direkt angeschlossener Speicher
+
+Storage Area Network (SAN)
+    Speichernetzwerk, fasst mehrere Server zusammen
+
+Network Attached Storage (NAS)
+    eigenständiger Fileserver
+
+Festplatten
+-----------
+
+HDD
+    * drehende Magnetische Scheiben
+    * beweglicher Schreib-Lesekopf
+    * 2,5 oder 3,5 Zoll groß
+    * bis 16TB 
+SSD
+    * schneller 
+    * leichter
+    * keine beweglichen Teile
+    * kaum Wärmeentwicklung
+SSHD (Hybrid)
+    * 5x schneller als HDD
+    * preiswert
+    
+
+
+
+
 RAM - Random Access Memory
 --------------------------
 
 * Größe (GB)
 * Geschwindigkeit (MT/s - Megatransfers/s)
-* Bandbreite (GB/s)
+* Bandbreite (GB/s) 
 * (U)DIMM -> Desktop
 * SO-DIMM -> Notebook
 * DRAM - Dynamic Random Access Memory
@@ -107,3 +188,6 @@ VMM
 Apps
 EPROM
 Chipsatz
+
+
+.. [#f1] https://de.wikipedia.org/wiki/80_PLUS
