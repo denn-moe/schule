@@ -99,6 +99,95 @@ Formfaktoren
 * Mini ITX
 
 
+Komponenten
+-----------
+
+* Mainboard
+* CPU 
+* RAM 
+* Festplatte 
+* GPU (Graphics Processing Unit)
+* PSU/Netzteil (Power Supply Unit)
+
+
+Bauformen
+---------
+
+Serververnetzung möglich
+    * Mini-PC 
+    * Desktop-PC, Mini-Tower
+    * Tower-PC (big, midi)
+    * All-in-one-PC 
+    * Notebook 
+    * Tablet-PC, Convertible
+
+Serververnetzung notwendig 
+    * Thin-Client
+    * Zero-Client 
+
+Kommunikationsnetz notwendig/sinnvoll
+    * Smart Tablet
+    * Smartphone
+    * Smart Devices
+
+
+LCD-Technologie
+---------------
+
+Panel-Typen
+    * TN 
+        * günstig
+        * schnelle Reaktionszeit
+        * energiesparend 
+    * VA 
+        * gute Bildqualität 
+        * etwas geringere Reaktionszeit
+    * IPS
+        * sehr gute Bildqualität 
+        * 178 Grad Blickwinkel
+        * hoher Preis 
+    * MVA, PVA
+        * min 160 Grad Blickwinkel horizontal/vertikal
+        * LED, LCD, OLED
+
+Ergonomieeigenschaften
+    * Curves Screen - räumliches Erlebnis
+    * Tilt - horizontale Neigung
+    * Swivel - vertikale Drehbarkeit
+    * Pivot - hähenverstellbar und horizontale Drehbarkeit 
+
+Tastatur
+--------
+
+Tastaturarten
+    * virtuell
+    * integriert 
+    * extern
+    * kabelgebunden
+    * Funk (verschiedene Standards)
+
+Office etc.
+    * Rubberdome-Modelle
+    * einfach und funktional
+    * günstig 
+    * relativ leise
+
+Mechanische Tastaturen
+    * 10x haltbarer als Rubberdome 
+    * Lineare mechanische Tastatur
+        * durchgehendes Druckgefühl
+        * kein "Click"
+        * gut für Gaming
+    * Taktile mechanische Tastatur
+        * definierter Schaltpunkt
+        * spürbares Klick-geräusch
+        * besser für Büroarbeit
+
+Funk-/Bluetooth-Tastaturen
+    * zusätzliche Bewegungsfreiheit (10-15m)
+    * Anschluss via USB
+    * Batterie muss erneuert/geladen werden
+
 Speicherarten
 -------------
 
