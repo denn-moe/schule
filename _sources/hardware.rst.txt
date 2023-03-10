@@ -209,8 +209,40 @@ ERP - Enterprise Resource Planning
     sondern auch alle notwendigen Belege und Auswertungen zu erstellen.
 
 
-CPU
-RAM
+Energieeffizienz Siegel
+-----------------------
+
++---------------+--------------------------------+----------------------------------------------+
+||energystar|   | Energy Star                    | * aus Amerika, in Europa übernommen          |
+|               |                                | * keine externe Prüfung                      |
+|               |                                | * Energiesparfunktionen                      |
++---------------+--------------------------------+----------------------------------------------+
+||tuv|          | TüV                            | * unabhängiges Prüfinstitut                  |
+|               |                                | * Einhaltung ökologischer Standards im Büro  |
+|               |                                | * z.B. Schadstoffe, Energieverbrauch         |
++---------------+--------------------------------+----------------------------------------------+
+||ecolabel|     | europäisches Umweltzeichen     | * von Europäischen Kommision initiiert       |
+|               |                                | * zertifiziert Produkte & Dienstleistungen   |
+|               |                                | * für geringe Umwelt-/Gesundheitsbelastungen |
++---------------+--------------------------------+----------------------------------------------+
+||tco|          | TCO certified                  | * Qualität von Produkten im Büro             |
+|               |                                | * z.B. Monitore, Notebooks, Server           |
+|               |                                | * Kontrolle stichprobenartig                 |
++---------------+--------------------------------+----------------------------------------------+
+||energieklasse|| Energieverbrauchskennzeichnung | * Europäischer Wirtschaftsraum               |
+|               |                                | * ermöglicht Vergleiche                      |
+|               |                                | * 03/21 erneuert, EPREL Produktdatenbank     |
++---------------+--------------------------------+----------------------------------------------+
+||blauerengel|  | Blauer Engel                   | * an effiziente Geräte                       |
+|               |                                | * z.B. Notebook, Computer, Monitor           |
+|               |                                | * renomiert im Bereich Green-IT              |
++---------------+--------------------------------+----------------------------------------------+
+
+
+
+
+
+
 BIOS
 CLK
 Betriebssystem
@@ -221,3 +253,10 @@ Chipsatz
 
 
 .. [#f1] https://de.wikipedia.org/wiki/80_PLUS
+
+.. |energystar| image:: http://homeenergyrx.com/wp-content/uploads/2014/06/469px-Energy_Star_logo.svg_.png
+.. |tuv| image:: https://www.luebbering-umwelttechnik.de/wordpress/wp-content/uploads/2017/05/logo-tuev-rheinland-500x500.png
+.. |ecolabel| image:: https://mauvilac.com/wp-content/uploads/2019/09/Ecolabel-logo-600x600.png 
+.. |tco| image:: https://www.yaacool-bio.de/uploads/tx_zimt/article_pics/TCOCertified_logo.jpg
+.. |energieklasse| image:: http://www.energiesparende-geraete.de/wp-content/uploads/2011/12/energieeffizienzklassen-300x300.jpg
+.. |blauerengel| image:: https://aussiedlerbote.de/wp-content/uploads/2018/10/Der-blaue-Engel.jpg
