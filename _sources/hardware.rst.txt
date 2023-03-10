@@ -69,22 +69,25 @@ dass Netzteile für Desktop-Computer und Server bei den Lastpunkten
 Anschlüsse
 ----------
 
-* Sockel (Prozessor)
-* RAM-Steckplätze
-* PCI-/PCIe-Steckplätze
-* USB 
-* Firewire
-* Thunderbolt
-* PS2 (veraltet Tastatur/Maus)
-* Audio (Klinkenanschlüsse)
-* RJ45 (Netzwerk)
-* Monitor
-    * VGA
-    * DVI
-    * HDMI
-    * Display Port
-* SATA (Festplatten)
-* M.2-Port (SSD)
+intern 
+    * Sockel (Prozessor)
+    * RAM-Steckplätze
+    * PCI-/PCIe-Steckplätze
+    * SATA (Festplatten)
+    * M.2-Port (SSD)
+
+extern 
+    * USB 
+    * Firewire
+    * Thunderbolt
+    * PS2 (veraltet Tastatur/Maus)
+    * Audio (Klinkenanschlüsse)
+    * RJ45 (Netzwerk)
+    * Monitor
+        * VGA
+        * DVI
+        * HDMI
+        * Display Port
 
 Formfaktoren
 ------------
@@ -177,6 +180,33 @@ Hauptprozessor (Zentraleinheit?), holt aus dem Speicher nacheinander die Befehle
         * Multicore-Prozessoren meist Integrierten L3-Cache
         * verbessert Cache-Koheränz-Protokoll (gegen Inkonsistenzen bei z.B. Rückschreibfehlern)
         * dient eher der Verbessereung des Datenaustauchs, weniger als "Cache" 
+
+
+
+ERP - Enterprise Resource Planning
+----------------------------------
+
++----------------------------------------+---------------------+-------------------------------+
+| Bereiche allgemein                     | ERP-System          | Beschreibung                  |
++========================================+=====================+===============================+
+| Human Resource Management (HRM)        | Lohn und Gehalt     | "Personalmanagement"          |
++----------------------------------------+---------------------+-------------------------------+
+| Customer Relationship Management (CRM) | Verkauf             | Kundenpflege                  |
++----------------------------------------+---------------------+-------------------------------+
+| Manufacturing Resource Planning (MRP)  | Produktion          | Produktionsplanung/-steuerung |
++----------------------------------------+---------------------+-------------------------------+
+| Supply Chain Management (SCM)          | Lager, Ein-/Verkauf | Lieferkettenmanagement        |
++----------------------------------------+---------------------+-------------------------------+
+| Financial Resource Management (FRM)    | Finanzmanagement    | Finanzmanagement?             |
++----------------------------------------+---------------------+-------------------------------+
+
+
+
+.. hint::
+    
+    Das System dient nicht nur dazu, unternehmensrelevante Daten 
+    zu verwalten und darüber zu informieren,
+    sondern auch alle notwendigen Belege und Auswertungen zu erstellen.
 
 
 CPU
