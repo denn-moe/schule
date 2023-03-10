@@ -13,8 +13,11 @@
 
 
 
-index und suche
-===============
 
+
+index und suche etc.
+====================
+
+* `<https://github.com/denn-moe/schule>`_
 * :ref:`genindex`
 * :ref:`search`
