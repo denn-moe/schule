@@ -39,6 +39,6 @@ html_title = "schule"
 
 html_theme = 'pydata_sphinx_theme'
 
-html_theme_options = {
-   "announcement": "Hamburger + Silbermann = <3",
-}
+# html_theme_options = {
+#    "announcement": "Hamburger + Silbermann = <3",
+# }
