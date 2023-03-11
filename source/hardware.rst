@@ -330,7 +330,100 @@ Energieeffizienz Siegel
 
 
 
+========
+Aufgaben
+========
 
+
+
+
+.. dropdown:: Vorteile eines RAID-Systems
+
+    * Erhöht die Ausfallsicherheit
+    * Performancegewinn
+    * Aufbau großer logischer Laufwerke
+
+
+
+.. dropdown:: Unterschied Software-/Hardware-RAID
+
+    * Softwarelösung als Teil des Betriebssystems
+    * RAID-Controller als zusätzliche Hardware
+
+
+
+.. dropdown:: Festplatten-Anschlüsse
+
+    * SCSI
+    * iSCSI
+    * IDE
+    * SATA
+
+
+.. dropdown:: Wie viel Fesplatten minimal bei RAID-6 + 1 Hot-Spare
+
+    4 Festplatten 
+
+
+.. dropdown:: Wie viel Festplatten können bei RAID 6 ausfallen
+
+    * 2 
+
+
+.. dropdown:: Vorteile einer Hot-Spare-Festplatte 
+
+    Austausch der defekten Platte ohne Unterbrechung
+
+
+.. dropdown:: Kriterien für Tausch einer Fesplatten im RAID-System 
+
+    * Kapazität größer oder gleich
+    * gleiche Schnittstelle
+
+
+
+.. dropdown:: Eigenschaften eines Servers
+
+    * hohe Performance 
+    * hohe Zuverlässigkeit
+    * hohe Verfügbarkeit
+
+
+.. dropdown:: Ports von FTP 
+
+    * 20 - Datenaustausch
+    * 21 - Kommandokanal
+
+
+.. dropdown:: Aufgabe von Portnummern im Netzwerk
+
+    da PC's nur eine IP haben, wird über Ports auf Dienste zugegriffen
+
+
+.. dropdown:: Wofür steht eSATA
+
+    external Serial Advanced Technology Attachment
+
+
+.. dropdown:: Verwendung von eSATA
+
+    SATA für mobile Geräte
+    
+
+
+.. dropdown:: Festplatte wird nicht erkannt, Ursache?
+
+    * Stromversorgung nicht richtig angeschlossen
+    * SATA-Kabel nicht richtig gesteckt
+    * Festplatte defekt 
+    * BIOS/UEFI Einstellungen falsch
+
+
+.. dropdown:: Wofür steht HDCP
+    :animate: fade-in-slide-down
+
+    Verschlüsselung bei HDMI und DVI, überträgt Daten kopiergeschützt
+    
 
 BIOS
 CLK

@@ -14,8 +14,13 @@ author = 'moe'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinxcontrib.plantuml',
+
+    "sphinx_design",
+
     'sphinx.ext.mathjax',
+
+    'sphinxcontrib.plantuml',
+
     'sphinxcontrib.nwdiag',
     'sphinxcontrib.rackdiag',
     'sphinxcontrib.packetdiag'
