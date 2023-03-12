@@ -2,6 +2,9 @@
 ========
 Hardware
 ========
+:bdg-link-primary-line:`ohne <../pdf/hardware.pdf>`
+:bdg-link-warning-line:`mit <https://github.com>`
+
 
 EK Themen
 =========
@@ -330,7 +333,6 @@ Energieeffizienz Siegel
 
 
 
-========
 Aufgaben
 ========
 
@@ -422,16 +424,19 @@ Aufgaben
 .. dropdown:: Wofür steht HDCP
     :animate: fade-in-slide-down
 
-    Verschlüsselung bei HDMI und DVI, überträgt Daten kopiergeschützt
+    .. only:: loesung
+
+        Verschlüsselung bei HDMI und DVI, überträgt Daten kopiergeschützt
     
 
-BIOS
-CLK
-Betriebssystem
-VMM
-Apps
-EPROM
-Chipsatz
+..
+    BIOS
+    CLK
+    Betriebssystem
+    VMM
+    Apps
+    EPROM
+    Chipsatz
 
 
 .. [#f1] https://de.wikipedia.org/wiki/80_PLUS
