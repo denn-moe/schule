@@ -5,12 +5,11 @@
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
    hardware
    lf3
-   aufgaben
 
 
 
