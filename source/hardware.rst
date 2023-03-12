@@ -3,7 +3,7 @@
 Hardware
 ========
 :bdg-link-primary-line:`ohne <https://github.com/denn-moe/schule/raw/main/pdf/hardware.pdf>`
-:bdg-link-warning-line:`mit <https://github.com/denn-moe/schule/raw/main/pdf/loesung/hardware.pdf>`
+:bdg-link-secondary-line:`mit <https://github.com/denn-moe/schule/raw/main/pdf/loesung/hardware.pdf>`
 
 
 .. raw:: latex
