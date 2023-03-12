@@ -2,8 +2,8 @@
 ========
 Hardware
 ========
-:bdg-link-primary-line:`ohne <../pdf/hardware.pdf>`
-:bdg-link-warning-line:`mit <https://github.com>`
+:bdg-link-primary-line:`ohne <https://github.com/denn-moe/schule/raw/main/pdf/hardware.pdf>`
+:bdg-link-warning-line:`mit <https://github.com/denn-moe/schule/raw/main/pdf/loesung/hardware.pdf>`
 
 
 EK Themen
