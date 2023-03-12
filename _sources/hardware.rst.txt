@@ -366,8 +366,21 @@ Energieeffizienz Siegel
 Aufgaben
 ========
 
+.. dropdown:: Vorteile JBOD gegenüber RAID 0
 
+    .. only:: loesung
 
+        * kein RAID-Controller erforderlich
+        * volle Speicherausnutzung bei unterschiedlichen Plattengrößen
+        * relativ einfach erweiterbar
+
+.. dropdown:: Vorteile SAN gegenüber NAS
+
+    .. only:: loesung
+
+        * erhöhte Performance
+        * gut geeignet für häufige Zugriffe 
+        * Verwaltung kann remote erfolgen
 
 .. dropdown:: Vorteile eines RAID-Systems
 
