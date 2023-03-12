@@ -6,6 +6,10 @@ Hardware
 :bdg-link-warning-line:`mit <https://github.com/denn-moe/schule/raw/main/pdf/loesung/hardware.pdf>`
 
 
+.. raw:: latex
+
+    \clearpage
+
 EK Themen
 =========
 
@@ -38,17 +42,21 @@ EVA Prinzip
 Pioniere der IT
 ---------------
 
-Deutschland
+.. grid:: 2 
 
-* Dietmar Hopp (SAP)
-* Hasso Plattner (SAP, Mäzen)
-* Marco Börries (Open-Office)
+    .. grid-item::
 
-und die Welt
+        Deutschland
+            * Dietmar Hopp (SAP)
+            * Hasso Plattner (SAP, Mäzen)
+            * Marco Börries (Open-Office)
 
-* Bill Gates (Microsoft)
-* Jeff Bezos (Amazon)
-* Larry Page (Google) 
+    .. grid-item::
+
+        und die Welt
+            * Bill Gates (Microsoft)
+            * Jeff Bezos (Amazon)
+            * Larry Page (Google) 
 
 
 Netzteil
@@ -59,79 +67,101 @@ Die "80-PLUS"-Initiative fordert für eine ihrer Zertifizierung,
 dass Netzteile für Desktop-Computer und Server bei den Lastpunkten
 20%, 50% und 100% jeweils einen Wirkungsgrad von mindestens 80% erreichen. [#f1]_
 
-* 80 PLUS
-* 80 PLUS Bronze
-* 80 PLUS Silver
-* 80 PLUS Gold
-* 80 PLUS Platinum
-* 80 PLUS Titanium
+.. grid:: 2
+
+    .. grid-item:: 
+
+        * 80 PLUS
+        * 80 PLUS Bronze
+        * 80 PLUS Silver
+
+    .. grid-item::
+    
+        * 80 PLUS Gold
+        * 80 PLUS Platinum
+        * 80 PLUS Titanium
 
 
+Mainboard
+---------
 
+.. grid:: 2 
+
+    .. grid-item::
+
+        Formfaktoren
+            * ATX
+            * micro ATX
+            * Mini ATX
+            * Flex ATX
+            * Mini ITX
+
+    .. grid-item::
+
+        Komponenten
+            * Mainboard
+            * CPU 
+            * RAM 
+            * Festplatte 
+            * GPU (Graphics Processing Unit)
+            * PSU/Netzteil (Power Supply Unit)
 
 Anschlüsse
-----------
-
-intern 
-    * Sockel (Prozessor)
-    * RAM-Steckplätze
-    * PCI-/PCIe-Steckplätze
-    * SATA (Festplatten)
-    * M.2-Port (SSD)
-
-extern 
-    * USB 
-    * Firewire
-    * Thunderbolt
-    * PS2 (veraltet Tastatur/Maus)
-    * Audio (Klinkenanschlüsse)
-    * RJ45 (Netzwerk)
-    * Monitor
-        * VGA
-        * DVI
-        * HDMI
-        * Display Port
-
-Formfaktoren
-------------
-
-* ATX
-* micro ATX
-* Mini ATX
-* Flex ATX
-* Mini ITX
+~~~~~~~~~~
 
 
-Komponenten
------------
 
-* Mainboard
-* CPU 
-* RAM 
-* Festplatte 
-* GPU (Graphics Processing Unit)
-* PSU/Netzteil (Power Supply Unit)
+.. grid:: 2
+
+    .. grid-item:: 
+
+        intern
+            * Sockel (Prozessor)
+            * RAM-Steckplätze
+            * PCI-/PCIe-Steckplätze
+            * SATA (Festplatten)
+            * M.2-Port (SSD)
+
+    .. grid-item::
+
+        extern
+            * USB 
+            * Firewire
+            * Thunderbolt
+            * PS2 (veraltet Tastatur/Maus)
+            * Audio (Klinkenanschlüsse)
+            * RJ45 (Netzwerk)
+            * Monitor
+                VGA, DVI, HDMI, Display Port
+
+
 
 
 Bauformen
----------
+~~~~~~~~~
 
-Serververnetzung möglich
-    * Mini-PC 
-    * Desktop-PC, Mini-Tower
-    * Tower-PC (big, midi)
-    * All-in-one-PC 
-    * Notebook 
-    * Tablet-PC, Convertible
+.. grid:: 2 
 
-Serververnetzung notwendig 
-    * Thin-Client
-    * Zero-Client 
+    .. grid-item::
 
-Kommunikationsnetz notwendig/sinnvoll
-    * Smart Tablet
-    * Smartphone
-    * Smart Devices
+        Serververnetzung möglich
+            * Mini-PC 
+            * Desktop-PC, Mini-Tower
+            * Tower-PC (big, midi)
+            * All-in-one-PC 
+            * Notebook 
+            * Tablet-PC, Convertible
+
+    .. grid-item::
+
+        Serververnetzung notwendig 
+            * Thin-Client
+            * Zero-Client 
+
+        Kommunikationsnetz notwendig/sinnvoll
+            * Smart Tablet
+            * Smartphone
+            * Smart Devices
 
 
 LCD-Technologie
@@ -341,85 +371,107 @@ Aufgaben
 
 .. dropdown:: Vorteile eines RAID-Systems
 
-    * Erhöht die Ausfallsicherheit
-    * Performancegewinn
-    * Aufbau großer logischer Laufwerke
+    .. only:: loesung
+
+        * Erhöht die Ausfallsicherheit
+        * Performancegewinn
+        * Aufbau großer logischer Laufwerke
 
 
 
 .. dropdown:: Unterschied Software-/Hardware-RAID
 
-    * Softwarelösung als Teil des Betriebssystems
-    * RAID-Controller als zusätzliche Hardware
+    .. only:: loesung
+
+        * Softwarelösung als Teil des Betriebssystems
+        * RAID-Controller als zusätzliche Hardware
 
 
 
 .. dropdown:: Festplatten-Anschlüsse
 
-    * SCSI
-    * iSCSI
-    * IDE
-    * SATA
+    .. only:: loesung
+
+        * SCSI
+        * iSCSI
+        * IDE
+        * SATA
 
 
 .. dropdown:: Wie viel Fesplatten minimal bei RAID-6 + 1 Hot-Spare
 
-    4 Festplatten 
+    .. only:: loesung
+
+        4 Festplatten 
 
 
 .. dropdown:: Wie viel Festplatten können bei RAID 6 ausfallen
 
-    * 2 
+    .. only:: loesung
+
+        * 2 
 
 
 .. dropdown:: Vorteile einer Hot-Spare-Festplatte 
 
-    Austausch der defekten Platte ohne Unterbrechung
+    .. only:: loesung
+
+        Austausch der defekten Platte ohne Unterbrechung
 
 
 .. dropdown:: Kriterien für Tausch einer Fesplatten im RAID-System 
 
-    * Kapazität größer oder gleich
-    * gleiche Schnittstelle
+    .. only:: loesung
+
+        * Kapazität größer oder gleich
+        * gleiche Schnittstelle
 
 
 
 .. dropdown:: Eigenschaften eines Servers
 
-    * hohe Performance 
-    * hohe Zuverlässigkeit
-    * hohe Verfügbarkeit
+    .. only:: loesung
+
+        * hohe Performance 
+        * hohe Zuverlässigkeit
+        * hohe Verfügbarkeit
 
 
 .. dropdown:: Ports von FTP 
 
-    * 20 - Datenaustausch
-    * 21 - Kommandokanal
+    .. only:: loesung
+
+            * 20 - Datenaustausch
+            * 21 - Kommandokanal
 
 
 .. dropdown:: Aufgabe von Portnummern im Netzwerk
 
-    da PC's nur eine IP haben, wird über Ports auf Dienste zugegriffen
+    .. only:: loesung
+
+        da PC's nur eine IP haben, wird über Ports auf Dienste zugegriffen
 
 
 .. dropdown:: Wofür steht eSATA
 
-    external Serial Advanced Technology Attachment
+    .. only:: loesung
 
+        external Serial Advanced Technology Attachment
 
 .. dropdown:: Verwendung von eSATA
 
-    SATA für mobile Geräte
-    
+    .. only:: loesung
 
+        SATA für mobile Geräte
 
 .. dropdown:: Festplatte wird nicht erkannt, Ursache?
 
-    * Stromversorgung nicht richtig angeschlossen
-    * SATA-Kabel nicht richtig gesteckt
-    * Festplatte defekt 
-    * BIOS/UEFI Einstellungen falsch
+    .. only:: loesung
 
+        * Stromversorgung nicht richtig angeschlossen
+        * SATA-Kabel nicht richtig gesteckt
+        * Festplatte defekt 
+        * BIOS/UEFI Einstellungen falsch
 
 .. dropdown:: Wofür steht HDCP
     :animate: fade-in-slide-down
