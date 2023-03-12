@@ -70,6 +70,23 @@ html_css_files = ['css/custom.css',]
 # source file, target tex file, document title, author, and document class
 latex_documents = [
    ('hardware', 'hardware.tex', u'Hardware', u'Author', 'howto'),
+   ('lf3', 'lf3.tex', u'Hardware', u'Author', 'howto'),
+
 ]
 
+
+
+latex_elements = {
+    'papersize': 'a4paper',
+
+
+    'preamble': r'''
+        \usepackage{geometry}
+        \geometry{
+            paper=a4paper,
+            margin=32pt,
+            includeheadfoot,
+        }
+    '''
+}
 
