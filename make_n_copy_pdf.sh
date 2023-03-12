@@ -5,7 +5,6 @@
 make latexpdf
 find ./build/latex -name "*.pdf" -exec cp {} ./pdf \;
 
-SPHINXOPTS="-t loesung"
-make latexpdf
+make SPHINXOPTS="-t loesung" latexpdf
 find ./build/latex -name "*.pdf" -exec cp {} ./pdf/loesung \;
 
