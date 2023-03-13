@@ -8,10 +8,10 @@
    :maxdepth: 2
    :caption: Contents:
 
-   hardware
+   lf2
    lf3
    lf5
-   lf2
+   hardware
 
 
 
