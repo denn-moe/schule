@@ -29,7 +29,8 @@ jobs:
         id: pip-cache
         run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
 
-      - name: install packags
+      - name: cache packags
+        uses: awalsh128/cache-apt-pkgs-action@latest
         with:
           packages: plantuml
           version: 1.0
