@@ -22,7 +22,7 @@ Vervollständige das Diagramm
 
     .. uml::
 
-        !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+        !include https://raw.githubusercontent.com/denn-moe/schule/main/source/static/onedark.puml
         skinparam classAttributeIconSize 0
 
 
@@ -123,7 +123,7 @@ Vervollständige das Diagramm
 
         .. uml::
             
-            !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+            !include https://raw.githubusercontent.com/denn-moe/schule/main/source/static/onedark.puml
             skinparam classAttributeIconSize 0
 
             class AnzeigeGUI {
@@ -153,7 +153,7 @@ Vervollständige das Diagramm
 
 .. uml::
 
-    !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+    !include https://raw.githubusercontent.com/denn-moe/schule/main/source/static/onedark.puml
     skinparam classAttributeIconSize 0
 
 
