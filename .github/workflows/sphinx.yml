@@ -19,7 +19,7 @@ jobs:
       - name: install/cache packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: plantuml
+          packages: plantuml graphviz
           version: 1.0
 
       - name: Setup Python
