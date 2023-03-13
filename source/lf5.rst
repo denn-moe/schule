@@ -18,45 +18,11 @@ Vervollständige das Diagramm
         * Stellen Sie eine Assoziation zwischen den Klassen AbfrageServer und Datenbank her.
 
 
-.. container:: dark-light
-
-    .. uml::
-
-        !include _static/onedark.puml
-        skinparam classAttributeIconSize 0
-
-
-        class AnzeigeGUI {
-        + TemplateName
-        + GUITemplate_laden()
-        }
-
-        class DatenbankConnect {
-        - Nutzername
-        - Passwort
-        - Datenbank
-        - DBConnect()
-        - DBClose()
-        + DBQuerry()
-        }
-        class __________ {
-
-
-        ---
-
-
-        }
-
-        AnzeigeGUI "1" - "*" DatenbankConnect
-        DatenbankConnect -[hidden]-> __________
-
-
-
 .. container:: only-dark
 
     .. uml::
 
-        !include _static/onedark.puml
+        !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
         skinparam classAttributeIconSize 0
 
 
@@ -116,3 +82,70 @@ Vervollständige das Diagramm
 
         AnzeigeGUI "1" - "*" DatenbankConnect
         DatenbankConnect -[hidden]-> __________
+
+
+
+.. dropdown:: Lösung
+
+    .. container:: only-light
+
+        .. uml::
+            
+            skinparam classAttributeIconSize 0
+
+            class AnzeigeGUI {
+                + TemplateName
+                + GUITemplate_laden()
+            }
+
+            class DatenbankConnect {
+                - Nutzername
+                - Passwort
+                - Datenbank
+                - DBConnect()
+                - DBClose()
+                + DBQuerry()
+            }
+            class AbfrageServer {
+                - archivtyp
+                - speicherKapazitaet
+                - datum
+                - BackupDaten()
+            }
+
+
+            AnzeigeGUI "1" - "*" DatenbankConnect
+            DatenbankConnect -- AbfrageServer
+
+    
+
+    .. container:: only-dark
+
+        .. uml::
+            
+            !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+            skinparam classAttributeIconSize 0
+
+            class AnzeigeGUI {
+                + TemplateName
+                + GUITemplate_laden()
+            }
+
+            class DatenbankConnect {
+                - Nutzername
+                - Passwort
+                - Datenbank
+                - DBConnect()
+                - DBClose()
+                + DBQuerry()
+            }
+            class AbfrageServer {
+                - archivtyp
+                - speicherKapazitaet
+                - datum
+                - BackupDaten()
+            }
+
+
+            AnzeigeGUI "1" - "*" DatenbankConnect
+            DatenbankConnect -- AbfrageServer
