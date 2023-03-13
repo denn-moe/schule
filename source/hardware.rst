@@ -367,6 +367,7 @@ Aufgaben
 ========
 
 .. dropdown:: Vorteile JBOD gegenüber RAID 0
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -375,6 +376,7 @@ Aufgaben
         * relativ einfach erweiterbar
 
 .. dropdown:: Vorteile SAN gegenüber NAS
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -383,6 +385,7 @@ Aufgaben
         * Verwaltung kann remote erfolgen
 
 .. dropdown:: Vorteile eines RAID-Systems
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -393,6 +396,7 @@ Aufgaben
 
 
 .. dropdown:: Unterschied Software-/Hardware-RAID
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -402,6 +406,7 @@ Aufgaben
 
 
 .. dropdown:: Festplatten-Anschlüsse
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -412,6 +417,7 @@ Aufgaben
 
 
 .. dropdown:: Wie viel Fesplatten minimal bei RAID-6 + 1 Hot-Spare
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -419,6 +425,7 @@ Aufgaben
 
 
 .. dropdown:: Wie viel Festplatten können bei RAID 6 ausfallen
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -426,6 +433,7 @@ Aufgaben
 
 
 .. dropdown:: Vorteile einer Hot-Spare-Festplatte 
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -433,6 +441,7 @@ Aufgaben
 
 
 .. dropdown:: Kriterien für Tausch einer Fesplatten im RAID-System 
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -442,6 +451,7 @@ Aufgaben
 
 
 .. dropdown:: Eigenschaften eines Servers
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -451,6 +461,7 @@ Aufgaben
 
 
 .. dropdown:: Ports von FTP 
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -459,6 +470,7 @@ Aufgaben
 
 
 .. dropdown:: Aufgabe von Portnummern im Netzwerk
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
@@ -466,18 +478,21 @@ Aufgaben
 
 
 .. dropdown:: Wofür steht eSATA
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
         external Serial Advanced Technology Attachment
 
 .. dropdown:: Verwendung von eSATA
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 
         SATA für mobile Geräte
 
 .. dropdown:: Festplatte wird nicht erkannt, Ursache?
+    :animate: fade-in-slide-down
 
     .. only:: loesung
 

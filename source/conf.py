@@ -58,6 +58,9 @@ html_static_path = ['_static']
 
 html_css_files = ['css/custom.css',]
 
+
+plantuml_output_format = 'png'
+
 # html_theme_options = {
 #    "announcement": "Hamburger + Silbermann = <3",
 # }

@@ -10,6 +10,8 @@
 
    hardware
    lf3
+   lf5
+   lf2
 
 
 
