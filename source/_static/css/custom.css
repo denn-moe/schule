@@ -1,6 +1,7 @@
 html[data-theme="dark"] {
 
-    --pst-color-background: #21252b;
+/*     --pst-color-background: #181a1f; */
+    --pst-color-background: #282c34;
     --pst-color-primary: #61afef;
     --pst-color-secondary: #d19a66;
     --pst-color-success: #98c379;
@@ -13,3 +14,6 @@ html[data-theme="dark"] {
     --pst-color-target: #382b2c;
 }
 
+html[data-theme=dark] img:not(.only-dark):not(.dark-light) {
+     filter:brightness() contrast()
+}
