@@ -353,6 +353,34 @@ document.write(`
 </div></blockquote>
 </div>
 <div class="only-dark docutils container">
+<p class="plantuml">
+<img src="_images/plantuml-b8b19ebbad2dc7214d9bc3834638f1ff68c2cacb.svg" alt="!include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+skinparam classAttributeIconSize 0
+
+
+class AnzeigeGUI {
++ TemplateName
++ GUITemplate_laden()
+}
+
+class DatenbankConnect {
+- Nutzername
+- Passwort
+- Datenbank
+- DBConnect()
+- DBClose()
++ DBQuerry()
+}
+class __________ {
+
+
+---
+
+
+}
+
+AnzeigeGUI &quot;1&quot; - &quot;*&quot; DatenbankConnect
+DatenbankConnect -[hidden]-&gt; __________"/></p>
 </div>
 <div class="only-light docutils container">
 <p class="plantuml">
@@ -419,6 +447,33 @@ AnzeigeGUI &quot;1&quot; - &quot;*&quot; DatenbankConnect
 DatenbankConnect -- AbfrageServer"/></p>
 </div>
 <div class="only-dark docutils container">
+<p class="plantuml">
+<img src="_images/plantuml-0a0c9424becb41c6d45b8866ce4ba4d3f966dab9.svg" alt="!include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+skinparam classAttributeIconSize 0
+
+class AnzeigeGUI {
+    + TemplateName
+    + GUITemplate_laden()
+}
+
+class DatenbankConnect {
+    - Nutzername
+    - Passwort
+    - Datenbank
+    - DBConnect()
+    - DBClose()
+    + DBQuerry()
+}
+class AbfrageServer {
+    - archivtyp
+    - speicherKapazitaet
+    - datum
+    - BackupDaten()
+}
+
+
+AnzeigeGUI &quot;1&quot; - &quot;*&quot; DatenbankConnect
+DatenbankConnect -- AbfrageServer"/></p>
 </div>
 </div>
 </details></section>
