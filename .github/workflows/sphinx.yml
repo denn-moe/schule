@@ -45,7 +45,7 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
 
-      - run: make clean SPHINXOPTS="-a -E -t loesung"
+      - run: make SPHINXOPTS="-a -E -t loesung"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
