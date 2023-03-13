@@ -151,32 +151,3 @@ Vervollständige das Diagramm
             DatenbankConnect -- AbfrageServer
 
 
-.. uml::
-
-    !include https://raw.githubusercontent.com/denn-moe/schule/main/source/static/onedark.puml
-    skinparam classAttributeIconSize 0
-
-
-    class AnzeigeGUI {
-    + TemplateName
-    + GUITemplate_laden()
-    }
-
-    class DatenbankConnect {
-    - Nutzername
-    - Passwort
-    - Datenbank
-    - DBConnect()
-    - DBClose()
-    + DBQuerry()
-    }
-    class __________ {
-
-
-    ---
-
-
-    }
-
-    AnzeigeGUI "1" - "*" DatenbankConnect
-    DatenbankConnect -[hidden]-> __________
