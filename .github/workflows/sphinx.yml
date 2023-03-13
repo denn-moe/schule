@@ -16,6 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: install/cache packages
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: plantuml
+          version: 1.0
+
       - name: Setup Python
         uses: actions/setup-python@v3
         with:
@@ -28,12 +34,6 @@ jobs:
       - name: Get pip cache dir
         id: pip-cache
         run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
-
-      - name: cache packags
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: plantuml
-          version: 1.0
 
       - name: Cache dependencies
         uses: actions/cache@v3
