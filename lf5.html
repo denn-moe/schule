@@ -337,10 +337,33 @@ document.write(`
                   
   <section id="lernfeld-5">
 <h1>Lernfeld 5<a class="headerlink" href="#lernfeld-5" title="Permalink to this heading">#</a></h1>
+<section id="sequenzdiagram">
+<h2>Sequenzdiagram<a class="headerlink" href="#sequenzdiagram" title="Permalink to this heading">#</a></h2>
+<p class="plantuml">
+<img src="_images/plantuml-135ed66baeafb2f007448d46c97d087e3a719f6f.svg" alt="!include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+
+participant &quot;:Client&quot; as client
+participant &quot;:Router&quot; as router
+participant &quot;:Firewall extern&quot; as extern
+participant &quot;:Webserver&quot; as server
+participant &quot;:Firewall intern&quot; as intern
+
+client -&gt; router: Anfrage stellen
+activate router
+
+router -&gt; intern: Anfrage weiterleiten
+activate intern
+
+intern --&gt; extern: Zieladresse in Routingtabelle
+activate extern
+
+extern -&gt; server: Anfrage stellen"/></p>
 <section id="aufgaben">
-<h2>Aufgaben<a class="headerlink" href="#aufgaben" title="Permalink to this heading">#</a></h2>
+<h3>Aufgaben<a class="headerlink" href="#aufgaben" title="Permalink to this heading">#</a></h3>
+</section>
+</section>
 <section id="vervollstandige-das-diagramm">
-<h3>Vervollständige das Diagramm<a class="headerlink" href="#vervollstandige-das-diagramm" title="Permalink to this heading">#</a></h3>
+<h2>Vervollständige das Diagramm<a class="headerlink" href="#vervollstandige-das-diagramm" title="Permalink to this heading">#</a></h2>
 <div class="warning admonition">
 <p class="admonition-title">Aufgabe</p>
 <blockquote>
@@ -478,7 +501,6 @@ DatenbankConnect -- AbfrageServer"/></p>
 </div>
 </details></section>
 </section>
-</section>
 
 
                 </article>
@@ -521,10 +543,11 @@ DatenbankConnect -- AbfrageServer"/></p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#aufgaben">Aufgaben</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vervollstandige-das-diagramm">Vervollständige das Diagramm</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sequenzdiagram">Sequenzdiagram</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#aufgaben">Aufgaben</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vervollstandige-das-diagramm">Vervollständige das Diagramm</a></li>
 </ul>
   </nav></div>
 

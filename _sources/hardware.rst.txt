@@ -189,6 +189,7 @@ Ergonomieeigenschaften
     * Swivel - vertikale Drehbarkeit
     * Pivot - hähenverstellbar und horizontale Drehbarkeit 
 
+
 Tastatur
 --------
 
@@ -221,6 +222,7 @@ Funk-/Bluetooth-Tastaturen
     * Anschluss via USB
     * Batterie muss erneuert/geladen werden
 
+
 Speicherarten
 -------------
 
@@ -232,6 +234,7 @@ Storage Area Network (SAN)
 
 Network Attached Storage (NAS)
     eigenständiger Fileserver
+
 
 Festplatten
 -----------
@@ -302,6 +305,23 @@ Hauptprozessor (Zentraleinheit?), holt aus dem Speicher nacheinander die Befehle
         * Multicore-Prozessoren meist Integrierten L3-Cache
         * verbessert Cache-Koheränz-Protokoll (gegen Inkonsistenzen bei z.B. Rückschreibfehlern)
         * dient eher der Verbessereung des Datenaustauchs, weniger als "Cache" 
+
+
+Chipsatz
+--------
+
+Northbridge
+    * über Front-Side-Bus mit CPU verbunden
+    * Speichercontroller
+    * Schnittstelle zur Grafikkarte (AGP, PEG)
+    * Schnittstelle zum Prozessor (FSB)
+    * Anbindung Southbridge
+
+Southbridge
+    * Anbindung Northbridge
+    * Peripherie-Schnittstellen
+    * Anbindung BIOS
+
 
 
 
