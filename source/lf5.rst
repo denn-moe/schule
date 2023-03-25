@@ -3,6 +3,36 @@
 Lernfeld 5
 ##########
 
+
+Sequenzdiagram
+--------------
+
+.. uml::
+    
+    !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+   
+    participant ":Client" as client 
+    participant ":Router" as router 
+    participant ":Firewall extern" as extern 
+    participant ":Webserver" as server 
+    participant ":Firewall intern" as intern 
+
+    client -> router: Anfrage stellen 
+    activate router 
+
+    router -> intern: Anfrage weiterleiten
+    activate intern
+
+    intern --> extern: Zieladresse in Routingtabelle
+    activate extern
+
+    extern -> server: Anfrage stellen 
+
+
+
+
+
+
 Aufgaben
 ========
 

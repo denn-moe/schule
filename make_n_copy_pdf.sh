@@ -5,7 +5,7 @@
 make latexpdf
 find ./build/latex -name "*.pdf" -exec cp {} ./pdf \;
 
-make SPHINXOPTS="-a -e -t loesung" latexpdf
+make clean SPHINXOPTS="-t loesung" latexpdf
 find ./build/latex -name "*.pdf" -exec cp {} ./pdf/loesung \;
 
 make html SPHINXOPTS="-t loesung"
