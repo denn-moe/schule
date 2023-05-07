@@ -51,67 +51,65 @@ Danach kann die Inbetriebnahme erfolgen.
 
 .. dropdown:: Lösung
 
-    .. uml::
+.. uml::
 
-        @startgantt
-        skinparam defaultTextAlignment left
-        language de
-        printscale daily zoom 2.5
-        !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
-        <style>
-        ganttDiagram {
-            timeline {
-                FontColor #61afef
+    skinparam defaultTextAlignment left
+    language de
+    printscale daily zoom 2.5
+    !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+    <style>
+    ganttDiagram {
+        timeline {
+            FontColor #61afef
 
-            }
-            task {
-                BackGroundColor #e5c07b
-                FontColor #abb2bf
-                FontSize 16
-                FontStyle bold
-                Margin 0
-                Padding 14
-
-            }
-            closed {
-                BackgroundColor #e06c75
-                FontColor #e06c75
-            }
         }
-        </style>
+        task {
+            BackGroundColor #e5c07b
+            FontColor #abb2bf
+            FontSize 16
+            FontStyle bold
+            Margin 0
+            Padding 14
+
+        }
+        closed {
+            BackgroundColor #e06c75
+            FontColor #e06c75
+        }
+    }
+    </style>
 
 
 
 
 
-        Project starts 2014-05-05
-        saturday are closed
-        sunday are closed
-        2014/05/29 is closed
-        [Anforderungen festlegen] lasts 2 days
+    Project starts 2014-05-05
+    saturday are closed
+    sunday are closed
+    2014/05/29 is closed
+    [Anforderungen festlegen] lasts 2 days
 
-        [Angebote einholen] starts 2014-05-07
-        [Angebote einholen] lasts 1 week
+    [Angebote einholen] starts 2014-05-07
+    [Angebote einholen] lasts 1 week
 
-        [Auftrag erteilen] starts 2014-05-14
-        [Auftrag erteilen] lasts 2 days
+    [Auftrag erteilen] starts 2014-05-14
+    [Auftrag erteilen] lasts 2 days
 
-        [Auslieferung] starts 2014-05-16
-        [Auslieferung] lasts 4 days
+    [Auslieferung] starts 2014-05-16
+    [Auslieferung] lasts 4 days
 
-        [Netzwerkerweiterung] starts 2014-05-19
-        [Netzwerkerweiterung] lasts 3 days
+    [Netzwerkerweiterung] starts 2014-05-19
+    [Netzwerkerweiterung] lasts 3 days
 
-        [Aufbau der Drucker] starts 2014-05-22
-        [Aufbau der Drucker] lasts 2 days
+    [Aufbau der Drucker] starts 2014-05-22
+    [Aufbau der Drucker] lasts 2 days
 
-        [Software installieren] starts 2014-05-22
+    [Software installieren] starts 2014-05-22
 
-        [konfiguration] starts 2014-05-26
-        [konfiguration] lasts 3 days
+    [konfiguration] starts 2014-05-26
+    [konfiguration] lasts 3 days
 
-        [test] starts 2014-05-30
+    [test] starts 2014-05-30
 
-        @endgantt
 
 
