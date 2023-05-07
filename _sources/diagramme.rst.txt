@@ -30,11 +30,11 @@ Die Konfiguration soll nach zwei Tagen abgeschlossen sein.
 Anschließend erfolgt an einem Tag die Testphase.
 Danach kann die Inbetriebnahme erfolgen.
 
-Ab dem :bdg-secondary-line:`05.05.2014` sollen in :bdg-secondary-line:`zwei Arbeitstagen` die :bdg-primary-line:`Anforderungskriterien für die Druckerauswahl` in Mitarbeitergesprächen festgelegt werden.
-Danach werden Angebote eingeholt.
-Bis zum Eintreffen der Angebote werden fünf Arbeitstage eingeplant.
-Anschließend sollen die Angebote ausgewertet und der Auftrag erteilt werden.
-Dafür sind zwei Arbeitstage vorgesehen.
+Ab dem :bdg-primary-line:`05.05.2014` sollen in :bdg-primary-line:`zwei Arbeitstagen` die :bdg-secondary-line:`Anforderungskriterien für die Druckerauswahl` in Mitarbeitergesprächen festgelegt werden.
+:bdg-primary-line:`Danach` werden :bdg-secondary-line:`Angebote eingeholt`.
+Bis zum Eintreffen der :bdg-secondary-line:`Angebote` werden :bdg-primary-line:`fünf Arbeitstage` eingeplant.
+:bdg-primary-line:`Anschließend` sollen die Angebote ausgewertet und der :bdg-secondary-line:`Auftrag erteilt` werden.
+Dafür sind :bdg-primary-line:`zwei Arbeitstage` vorgesehen.
 Für die Auslieferung sind vier Tage geplant.
 Zum Anschließen der Drucker in das Firmennetz muss die Vernetzung durch eine externe Firma erweitert werden.
 Die Netzwerkerweiterung soll am 19.05.2014 beginnen.
