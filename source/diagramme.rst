@@ -78,10 +78,6 @@ Danach kann die Inbetriebnahme erfolgen.
     }
     </style>
 
-
-
-
-
     Project starts 2014-05-05
     saturday are closed
     sunday are closed
