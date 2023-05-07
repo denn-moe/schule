@@ -53,7 +53,6 @@ Danach kann die Inbetriebnahme erfolgen.
 
 .. uml::
 
-    skinparam defaultTextAlignment left
     language de
     printscale daily zoom 2.5
     !include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
