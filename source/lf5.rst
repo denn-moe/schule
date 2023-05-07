@@ -1,4 +1,4 @@
-..role:: hl_ora
+.. role:: hl_ora
 
 ##########
 Lernfeld 5
