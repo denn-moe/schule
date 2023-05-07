@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="92px" preserveAspectRatio="none" style="width:293px;height:92px;background:#000000;" version="1.1" viewBox="0 0 293 92" width="293px" zoomAndPan="magnify"><defs/><g><rect fill="#160426" height="1" style="stroke: #160426; stroke-width: 1.0;" width="1" x="0" y="0"/><rect fill="#33FF02" height="21.2969" style="stroke: #33FF02; stroke-width: 1.0;" width="170" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168" x="6" y="20">[From string (line 2) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="10" y="40.2969"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="5" y="56.5938">@startgantt</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="286" x="5" y="72.8906">skinparam defaultTextAlignment left</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="10" y="89.1875">Syntax Error?</text><!--MD5=[5fba01c4f659d634e6046a74e0bd84d0]
+@startgantt
+skinparam defaultTextAlignment left
+language de
+printscale daily zoom 2.5
+
+
+
+
+
+
+skinparam backgroundColor #282c34
+
+skinparam {
+  ActivityBackgroundColor        #31353f
+  ActivityBarColor               #abb2bf
+  ActivityBorderColor            #61afef
+  ActivityDiamondBackgroundColor #31353f
+  ActivityDiamondBorderColor     #61afef
+  ActivityEndColor               #e06c75
+  ActivityStartColor             #98c379
+  ActivityStopColor              #e06c75
+
+  ActorBackgroundColor        #31353f
+  ActorBorderColor            #61afef
+  ActorStereotypeFontColor    #abb2bf
+
+  AgentBackgroundColor       #31353f
+  AgentBorderColor           #61afef
+
+
+  ArrowColor #61afef
+
+  ArtifactBackgroundColor     #31353f
+  ArtifactBorderColor         #61afef
+
+  BackgroundColor #282c34
+
+
+  BoundaryBackgroundColor     #31353f
+  BoundaryBorderColor         #61afef
+  BoundaryStereotypeFontColor #abb2bf
+
+
+  CaptionFontColor #abb2bf
+
+  CardBackgroundColor     #31353f
+  CardBorderColor         #61afef
+
+
+
+  ClassBackgroundColor   #31353f
+  ClassBorderColor       #abb2bf
+
+
+
+  CloudBackgroundColor        #31353f
+  CloudBorderColor            #61afef
+
+  CollectionsBackgroundColor #31353f
+  CollectionsBorderColor     #61afef
+
+
+  ComponentBackgroundColor       #31353f
+  ComponentBorderColor           #61afef
+
+
+
+  ControlBackgroundColor #31353f
+  ControlBorderColor     #61afef
+  ControlFontColor       #abb2bf
+  ControlStereotypeFontColor #abb2bf
+
+  DatabaseBackgroundColor       #31353f
+  DatabaseBorderColor           #61afef
+
+  DefaultFontColor #abb2bf
+  DefaultFontName -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+
+
+
+
+
+
+
+
+  EntityBackgroundColor #31353f
+  EntityBorderColor     #61afef
+
+
+  FileBackgroundColor #31353f
+  FileBorderColor     #61afef
+
+
+
+  FolderBackgroundColor #31353f
+  FolderBorderColor     #61afef
+
+
+  FrameBackgroundColor       #31353f
+  FrameBorderColor           #61afef
+
+  HexagonBackgroundColor #31353f
+  HexagonBorderColor     #61afef
+
+
+  InterfaceBackgroundColor       #31353f
+  InterfaceBorderColor           #61afef
+
+  LegendBackgroundColor   #31353f
+  LegendBorderColor       #abb2bf
+
+
+  NodeBackgroundColor       #31353f
+  NodeBorderColor           #61afef
+
+
+  NoteBackgroundColor   #e5c07b
+  NoteBorderColor       #282c34
+  NoteFontColor         #282c34
+
+  ObjectBackgroundColor       #31353f
+  ObjectBorderColor           #61afef
+
+  PackageBackgroundColor       #282c34
+  PackageBorderColor           #61afef
+
+
+  ParticipantBackgroundColor #31353f
+  ParticipantBorderColor     #61afef
+
+  PartitionBackgroundColor transparent
+  PartitionBorderColor     #abb2bf
+
+
+  PersonBackgroundColor #31353f
+  PersonBorderColor     #61afef
+
+  QueueBackgroundColor       #31353f
+  QueueBorderColor           #61afef
+
+
+  RectangleBackgroundColor       #31353f
+  RectangleBorderColor           #61afef
+
+
+
+
+  SequenceBoxBackgroundColor #31353f
+  SequenceBoxBorderColor     #61afef
+
+
+  SequenceDividerBackgroundColor   #31353f
+  SequenceDividerBorderColor       #abb2bf
+
+  SequenceGroupBackgroundColor       #31353f
+  SequenceGroupBorderColor           #abb2bf
+
+  SequenceLifeLineBackgroundColor   #282c34
+  SequenceLifeLineBorderColor       #61afef
+
+  SequenceNewpageSeparatorColor  #abb2bf
+
+
+  SequenceReferenceBackgroundColor        transparent
+  SequenceReferenceBorderColor            #abb2bf
+  SequenceReferenceHeaderBackgroundColor #31353f
+
+
+  Shadowing false
+
+  StackBackgroundColor       #31353f
+  StackBorderColor           #61afef
+
+
+  StateBackgroundColor    #31353f
+  StateBorderColor        #61afef
+  StateEndColor           #e06c75
+  StateStartColor         #98c379
+
+
+  StorageBackgroundColor #31353f
+  StorageBorderColor     #abb2bf
+
+
+  SwimlaneBorderColor            #abb2bf
+
+
+
+
+  UsecaseBackgroundColor       #31353f
+  UsecaseBorderColor           #61afef
+
+}
+
+<style>
+ganttDiagram {
+    timeline {
+        FontColor #61afef
+
+    }
+    task {
+        BackGroundColor #e5c07b
+        FontColor #abb2bf
+        FontSize 16
+        FontStyle bold
+        Margin 0
+        Padding 14
+
+    }
+    closed {
+        BackgroundColor #e06c75
+        FontColor #e06c75
+    }
+}
+</style>
+
+
+
+
+
+Project starts 2014-05-05
+saturday are closed
+sunday are closed
+2014/05/29 is closed
+[Anforderungen festlegen] lasts 2 days
+
+[Angebote einholen] starts 2014-05-07
+[Angebote einholen] lasts 1 week
+
+[Auftrag erteilen] starts 2014-05-14
+[Auftrag erteilen] lasts 2 days
+
+[Auslieferung] starts 2014-05-16
+[Auslieferung] lasts 4 days
+
+[Netzwerkerweiterung] starts 2014-05-19
+[Netzwerkerweiterung] lasts 3 days
+
+[Aufbau der Drucker] starts 2014-05-22
+[Aufbau der Drucker] lasts 2 days
+
+[Software installieren] starts 2014-05-22
+
+[konfiguration] starts 2014-05-26
+[konfiguration] lasts 3 days
+
+[test] starts 2014-05-30
+
+@endgantt
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.18+10
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
