@@ -40,10 +40,12 @@ Aufgaben
 Vervollständige das Diagramm
 -----------------------------
 
+
+test in :hl_ora:`einer anderen farbe`...
+
 .. admonition:: Aufgabe
     :class: warning
 
-        * test in :hl_ora:`einer anderen farbe`...
         * Erstellen Sie eine Klasse mit dem Namen AbfrageServer.
         * Legen Sie eine private Methode mit dem Namen BackupDaten an.
         * Legen Sie die privaten Attribute Archivtyp, Speicherkapazität und Datum an.
