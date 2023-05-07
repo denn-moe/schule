@@ -1,4 +1,3 @@
-.. role:: hl_ora
 
 ##########
 Lernfeld 5
@@ -41,7 +40,6 @@ Vervollständige das Diagramm
 -----------------------------
 
 
-test in :hl_ora:`einer anderen farbe`...
 
 .. admonition:: Aufgabe
     :class: warning
