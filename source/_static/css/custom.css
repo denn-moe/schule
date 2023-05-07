@@ -17,3 +17,7 @@ html[data-theme="dark"] {
 html[data-theme=dark] img:not(.only-dark):not(.dark-light) {
      filter:brightness() contrast()
 }
+
+.hl_ora {
+    color:#d19a66;
+}
