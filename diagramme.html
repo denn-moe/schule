@@ -387,6 +387,80 @@ Lösung<div class="sd-summary-down docutils">
 </details></section>
 </section>
 </section>
+<section id="klassen-diagramme">
+<h2>Klassen Diagramme<a class="headerlink" href="#klassen-diagramme" title="Permalink to this heading">#</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Erstellen Sie eine Klasse mit dem Namen AbfrageServer.</p></li>
+<li><p>Legen Sie eine private Methode mit dem Namen BackupDaten an.</p></li>
+<li><p>Legen Sie die privaten Attribute Archivtyp, Speicherkapazität und Datum an.</p></li>
+<li><p>Stellen Sie eine Assoziation zwischen den Klassen AbfrageServer und Datenbank her.</p></li>
+</ul>
+</div></blockquote>
+<p class="plantuml">
+<img src="_images/plantuml-b8b19ebbad2dc7214d9bc3834638f1ff68c2cacb.svg" alt="!include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+skinparam classAttributeIconSize 0
+
+
+class AnzeigeGUI {
++ TemplateName
++ GUITemplate_laden()
+}
+
+class DatenbankConnect {
+- Nutzername
+- Passwort
+- Datenbank
+- DBConnect()
+- DBClose()
++ DBQuerry()
+}
+class __________ {
+
+
+---
+
+
+}
+
+AnzeigeGUI &quot;1&quot; - &quot;*&quot; DatenbankConnect
+DatenbankConnect -[hidden]-&gt; __________"/></p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Lösung<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="plantuml">
+<img src="_images/plantuml-0a0c9424becb41c6d45b8866ce4ba4d3f966dab9.svg" alt="!include https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/onedark.puml
+skinparam classAttributeIconSize 0
+
+class AnzeigeGUI {
+    + TemplateName
+    + GUITemplate_laden()
+}
+
+class DatenbankConnect {
+    - Nutzername
+    - Passwort
+    - Datenbank
+    - DBConnect()
+    - DBClose()
+    + DBQuerry()
+}
+class AbfrageServer {
+    - archivtyp
+    - speicherKapazitaet
+    - datum
+    - BackupDaten()
+}
+
+
+AnzeigeGUI &quot;1&quot; - &quot;*&quot; DatenbankConnect
+DatenbankConnect -- AbfrageServer"/></p>
+</div>
+</details></section>
 </section>
 
 
@@ -425,6 +499,7 @@ Lösung<div class="sd-summary-down docutils">
 </li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#klassen-diagramme">Klassen Diagramme</a></li>
 </ul>
   </nav></div>
 
