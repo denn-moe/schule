@@ -28,8 +28,6 @@ Ermitteln Sie zunächst die Zahl der Scans/Aufnahmen pro Tag. Der Rechenweg ist 
 
 .. math::
 
-    30,48 m/min \div 30,48 cm
-
-    3048 cm/min \div 30,48 cm = 100 Scans/min
+    30,48 m/min \div 30,48 cm \Rightarrow 3048 cm/min \div 30,48 cm = 100 Scans/min
     
     100 Scans/min \times 60 min/h \times 12 h/Tag = 72.000 Scans/Tag
