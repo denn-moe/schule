@@ -28,6 +28,8 @@ Ermitteln Sie zunächst die Zahl der Scans/Aufnahmen pro Tag. Der Rechenweg ist 
 
 .. math::
 
+    \cfrac{a}{1 + \cfrac{1}{b}}
+    
     \cfrac{30,48\cfrac{\text{m}{\text{min}}}{30,48\text{cm}}
     100 * 60 * 12 = 72.000
     
