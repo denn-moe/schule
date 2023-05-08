@@ -51,7 +51,7 @@ Danach kann die Inbetriebnahme erfolgen.
 
 .. dropdown:: Lösung
 
-   .. image:: https://github.com/denn-moe/schule/tree/main/source/_static/images/gantt_1.svg
+   .. image:: https://raw.githubusercontent.com/denn-moe/schule/main/source/_static/images/gantt_1.svg
 
 .. uml::
 
