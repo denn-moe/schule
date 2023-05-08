@@ -28,6 +28,6 @@ Ermitteln Sie zunächst die Zahl der Scans/Aufnahmen pro Tag. Der Rechenweg ist 
 
 .. math::
 
-    30.48 {m\over min} \div 30,48 cm = 100
+    30.48 m/min \div 30,48 cm = 100
     
     100 * 60 * 12 = 72.000
